@@ -1,10 +1,19 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
+import Form from './Form';
+
 
 const App = () => {
-  return (<div>Meu app
+  return (
+    <>
+      <div>Meu app
     <Header />
-  </div>)
+        <Form />
+        <Footer />
+      </div>
+    </>
+  )
 }
 
 export default App;
